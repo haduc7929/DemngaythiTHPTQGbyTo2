@@ -62,7 +62,10 @@ const Index = () => {
 
       {/* Footer */}
       <footer className="py-6 text-center text-sm text-muted-foreground border-t border-border">
-        <p>Chúc các bạn thí sinh ôn thi tốt! 📚</p>
+        <p className="mb-2">Chúc các bạn thí sinh ôn thi tốt! 📚</p>
+        <p className="text-xs text-muted-foreground/70">
+          Made with ❤️ by Lovable
+        </p>
       </footer>
     </div>
   );
