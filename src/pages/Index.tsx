@@ -61,11 +61,17 @@ const Index = () => {
       </main>
 
       {/* Footer */}
-      <footer className="py-6 text-center text-sm text-muted-foreground border-t border-border">
-        <p className="mb-2">Chúc các bạn thí sinh ôn thi tốt! 📚</p>
-        <p className="text-xs text-muted-foreground/70">
-          Made with ❤️ by Lovable
-        </p>
+      <footer className="py-8 text-center text-sm text-muted-foreground border-t border-border">
+        <p className="mb-4">Chúc các bạn thí sinh ôn thi tốt! 📚</p>
+        <div className="max-w-md mx-auto">
+          <p className="text-sm mb-2">
+            Website được ❤️ thực hiện bởi <span className="font-semibold text-primary">tổ 2</span>
+          </p>
+          <p className="text-xs font-medium text-muted-foreground mb-2">THÀNH VIÊN</p>
+          <p className="text-xs text-muted-foreground/80 leading-relaxed">
+            Văn Đức • Tạ Chung • Hoàng Hà • Quang Vinh • Anh Thư • Thu Hiền • Đình Hải • Minh Vinh • Phạm Hoài • Ngọc Ánh • Gia Hưng
+          </p>
+        </div>
       </footer>
     </div>
   );
